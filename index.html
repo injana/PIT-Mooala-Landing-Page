@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="icon" href="Mooala/Mooala_Logo_1_copy.avif"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/a434dbd451.js" crossorigin="anonymous"></script>
+    <script>
+        let isAtTop = true;
+    
+        window.addEventListener('scroll', () => {
+            let st = window.scrollY;
+    
+            if (st === 0 && !isAtTop) {
+                // Scrolled to the top
+                document.querySelector('nav').classList.remove('scrolled');
+                isAtTop = true;
+            } else if (st > 0 && isAtTop) {
+                // Scrolling down
+                document.querySelector('nav').classList.add('scrolled');
+                isAtTop = false;
+            }
+        });
+        
+    </script>
+    <title>Mooala | Organic Plant Based Milk for the Whole Family – Mooala </title>
+</head>
+<body>
+
+    <nav>
+         <div class="logo">
+            <img src="Mooala/picstur.avif"/>
+        </div>
+            <div class="nav-links">
+                <a href="home.html">Buy Now&nbsp;</a>
+                <a href="home.html">Products&nbsp;</a>
+                <a href="home.html">Find a Store&nbsp;</a>
+                <a href="home.html">Wholesale&nbsp;</a>
+            </div>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                    <i class="fa-solid fa-cart-shopping fa-2x1"></i>
+                </div>
+    </nav>
+
+    <div class="main">
+        <h1>Organic</h1>
+        <h2>Plantmilks</h2>
+        <p>Unrivaled taste,quality ingredients and certified USDA-organic.
+            With Mooala, you can enjoy your plantmilks, knowing they're made 
+            with clean ingredients and without toxic pesticides, preservatives and
+            artificial flavors.
+        </p>
+        <button><b>Shop now</b></button>
+    </div>
+
+    <div class="our-products">
+        <div class="products">
+            <h1>Our products</h1>
+        </div>
+            <div class="image">
+                    <img src="Mooala/simple.webp"/>
+                    <img src="Mooala/almond milk.webp">
+                    <img src="Mooala/banana milk.webp">
+                    <img src="Mooala/oat milk.webp">
+                    <img src="Mooala/baritsta-Photoroom.png-Photoroom.png">
+                    <img src="Mooala/855395007284-main.webp">
+            </div>
+            <div class="name">
+                    <p>Simple</p>
+                    <p>Almondmilk</p>
+                    <p>Bananamilk</p>
+                    <p>Oatmilk</p>
+                    <p>Barista</p>
+                    <p>Single Serve</p>
+            </div>
+    </div>
+
+    <div class="Introduce">
+        <div class="background">
+            <img src="Mooala/background-3.webp"/>
+        </div>
+        <div class="simple">
+            <h1>Introducing</h1>
+            <h2>Mooala Simple</h2>
+            <P>It's as simple as this: no gums, no oils, no filters.
+                <br>
+                Just organic goodness.
+            </P>
+            <button>Shop now</button>
+        </div>
+    </div>
+    <div class="find">
+        <div class="find-us">
+        <h1>Find us in your backyard</h1>
+        </div>
+        <div class="photos">
+            <img src="Mooala/publix-1.webp"/>
+            <img src="Mooala/wegmans.webp"/>
+            <img src="Mooala/walmart.webp"/>
+            <img src="Mooala/albersons.webp"/>
+            <img src="Mooala/kroger.webp"/>
+            <img src="Mooala/costco.webp"/>
+        </div>
+    </div>
+    <div class="organic">
+        <div class="org-dif">
+            <h1>The Organic Difference</h1>
+            <p>"I can't wait to get my daily dose of pesticides" -no one ever.</p>
+            <p>Non-organic plantmilks could be filled with GMOs, toxic pesticides or
+                <br>
+                synthetic ingredients. With Mooala, you can rest easy knowing our
+                <br>
+                ingredients are ethically sourced, quality and our milks are always organic.
+            </p>
+        </div>
+        <div class="org-bg">
+            <img src="Mooala/organic-is-better.webp">
+        </div>
+    </div>
+    
+    <div class="our-customer">
+        <div class="customer">
+            <h1>Our customers say</h1>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="star">
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div> 
+                <p>"Live saver for allergies"</p>
+                <br>
+                <p><b>Author's name </b><br> Los Angeles, CA</p>
+            </div>
+            <div class="slide">
+                <div class="star">
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div> 
+                <p>"Nice something this good is healthy & dairy free with no
+                    added sugar"
+                </p>
+                <br>
+                <p><b>Author's name</b> <br> Los Angeles, CA</p>
+            </div>
+            <div class="slide">
+                <div class="star">
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div> 
+                <p>"One of the best plant based milk products I have ever 
+                    had. Highly Recommended."
+                </p>
+                <br>
+                <p><b>Author's name</b> <br> Los Angeles, CA</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sign-up">
+        <div class="sign">
+            <h1>Sign up for our newsletter</h1>
+            <br>
+            <p>Receive special offers and exclusive first looks
+                at new products.
+            </p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="image-bg">
+            <img src="Mooala/mooala-background-update.jpg"/>
+                <div class="container">
+                    <h1>About Mooala</h1>
+                    <p>Moowala was founded with the goal of making USDA-<br>
+                       organic plant-based milks more accessible and affordable<br>
+                       to U.S households. Our beverages are USDA-organic<br>
+                       and made with good ingredients like real,organic<br>
+                       bananas and organic coconut cream.
+                       <br>
+                       <br>
+                       We believe goodness should flow deeper than the<br>
+                       beverages themeselves, which is why we support non-profit<br>
+                       micro finance organizations in developing countries.<br>
+                       These groups provide entrepreneurs and economies with<br>
+                       a "hand up" -not a hand out - and provide tremendous<br>
+                       supprot to communities in need. A portion of all of our<br>
+                       profits to support these organizations.
+                       <br>
+                       <br>
+                       Thanks for helping us spread the love.
+                    </p>
+                    <br>
+                    <button>Learn More</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class="link">
+        <p>Links</p>
+        <ul>
+            <li>Wholesale</li>
+            <br>
+            <li>Press</li>
+            <br>
+            <li>Request Mooala</li>
+            <br>
+            <li>Download Coupon</li>
+            <br>
+            <li>Refund Policy</li>
+            <br>
+            <li>Terms of Service</li>
+            <br>
+            <li>Shipping Policy</li>
+            <br>
+            <li>Contact Us</li>
+            <br>
+            <li>About</li>
+        </ul>
+        <div class="contact">
+            <h5>Get in touch</h5>
+            <i class="fa-solid fa-phone fa-2xs"></i>
+            <p><u>214-206-1902</u></p>
+        </div>
+        <div class="follow">
+            <h5>Follow us</h5>
+            <div class="it">
+            <img src="Mooala/picwans.png">
+            </div>
+            <div class="tiktok">
+                <p style="margin-left: -250px; "><u>Powered by Shopify</u></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
